@@ -1,10 +1,10 @@
 class Idevicerestore < Formula
   desc "Restore/upgrade firmware of iOS devices"
   homepage "https://www.libimobiledevice.org/"
-  url "https://github.com/libimobiledevice/idevicerestore.git"
+  url "https://github.com/smitben59/idevicerestore"
   version "git0"
 
-  head "https://github.com/libimobiledevice/idevicerestore.git"
+  head "https://github.com/smitben59/idevicerestore"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
